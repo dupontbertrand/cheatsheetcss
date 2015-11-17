@@ -11,7 +11,7 @@
 
   <title>Cheat Sheet CSS3</title>
 
-<!-- Font awesome -->
+  <!-- Font awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!-- Bootstrap Core CSS -->
@@ -40,9 +40,7 @@
       <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
           <li class="sidebar-brand">
-            <a href="#">
-                      Acceuil
-                    </a>
+            <a href="#"> Accueil </a>
           </li>
           <li>
             <a href="http://dupontbertrand.github.io/cheatsheethtml/">HTML</a>
@@ -111,7 +109,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-10">
           <h2> Général : </h2>
           <p>* Selecteur universel</p>
           <p>h3 em Tous les em dans un h3</p>
@@ -128,75 +126,77 @@
           <p> Alignement :</p>
           <p> text-align (left/center/right/justify)</p>
         </div>
-        <div class="col-md-3">
+        <div class="row">
+          <div class="col-md-10">
 
-          <h2>Les flottants :</h2>
+            <h2>Les flottants :</h2>
 
-          <p> float (left/right)</p>
+            <p> float (left/right)</p>
 
-          <p> ex :</p>
-          <p> html :
+            <p> ex :</p>
+            <p> html :
+              <p>
+                &lt;img src="flash.gif" class="imageflottante" alt="Image flottante" /&gt; Ceci est un texte normal de paragraphe, écrit à la suite de l'image et qui l'habillera car l'image est flottante.</p>
+            </p>
+            <p> css : .imageflottante</p>
+            { float: left; }
+
+            <p> Pour faire revenir le texte en dessous :</p>
+            <p> clear both</p>
+            <p> ex:</p>
+            <p> html :</p>
             <p>
-              &lt;img src="flash.gif" class="imageflottante" alt="Image flottante" /&gt; Ceci est un texte normal de paragraphe, écrit à la suite de l'image et qui l'habillera car l'image est flottante.</p>
-          </p>
-          <p> css : .imageflottante</p>
-          { float: left; }
+              &lt;img src="flash.gif" class="imageflottante" alt="Image flottante" /&gt;
+            </p>
 
-          <p> Pour faire revenir le texte en dessous :</p>
-          <p> clear both</p>
-          <p> ex:</p>
-          <p> html :</p>
-          <p>
-            &lt;img src="flash.gif" class="imageflottante" alt="Image flottante" /&gt;
-          </p>
+            <p>Ce texte est écrit à côté de l'image flottante.</p>
 
-          <p>Ce texte est écrit à côté de l'image flottante.</p>
+            &lt;p class="dessous"&gt;Ce texte est écrit sous l'image flottante.&lt;/p&gt;
+            <p> css :</p>
 
-          &lt;p class="dessous"&gt;Ce texte est écrit sous l'image flottante.&lt;/p&gt;
-          <p> css :</p>
+            <p> .imageflottante</p>
+            {
+            <p> float: left;</p>
+            }
+            <p> .dessous</p>
+            {
+            <p> clear: both;</p>
+            }
 
-          <p> .imageflottante</p>
-          {
-          <p> float: left;</p>
-          }
-          <p> .dessous</p>
-          {
-          <p> clear: both;</p>
-          }
+            <p> body {</p>
+            <p> background-image: url</p>
+            <p> }</p>
 
-        <p> body {</p>
-        <p> background-image: url</p>
-        <p> }</p>
+            <p> background-attachment (fixed/scroll)</p>
 
-        <p> background-attachment (fixed/scroll)</p>
+            <p> background-position (top/bottom/left/center/right ou ": 30px 50px;" affichera 30px de la gauche et 50px du haut + possible de combiner ex : top right;)</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
 
-        <p> background-position (top/bottom/left/center/right ou ": 30px 50px;" affichera 30px de la gauche et 50px du haut + possible de combiner ex : top right;)</p>
+            <h2>Les bordures :</h2>
 
+            <p> border {</p>
+            <p> 2px (largeur) red (couleur) type de bordure (none/solid/dotted/dashed/double/groove/ridge/inset/outset/)</p>
+
+            <p> border-radius (arrondies): 10px;</p>
+
+            <p> LIENS :</p>
+
+            <p> a:hover = AU SURVOL</p>
+
+            <p> a:visited = Si lien déja visité</p>
+
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
 
-        <h2>Les bordures :</h2>
-
-        <p> border {</p>
-        <p> 2px (largeur) red (couleur) type de bordure (none/solid/dotted/dashed/double/groove/ridge/inset/outset/)</p>
-
-        <p> border-radius (arrondies): 10px;</p>
-
-        <p> LIENS :</p>
-
-        <p> a:hover = AU SURVOL</p>
-
-        <p> a:visited = Si lien déja visité</p>
-
-      </div>
+      <!-- /#page-content-wrapper -->
     </div>
 
-
-    <!-- /#page-content-wrapper -->
+    <!-- /#wrapper -->
   </div>
-
-  <!-- /#wrapper -->
-</div>
   <!-- jQuery -->
   <script src="js/jquery.js"></script>
 
