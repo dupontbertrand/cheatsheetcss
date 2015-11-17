@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Cheat Sheet CSS3</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+  <!-- My css -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <nav>
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+            <a href="#">
+                      Acceuil
+                    </a>
+          </li>
+          <li>
+            <a href="#">HTML</a>
+          </li>
+          <li>
+            <a href="#">CSS</a>
+          </li>
+          <li>
+            <a href="#">Terminal</a>
+          </li>
+          <li>
+            <a href="#">Ubuntu</a>
+          </li>
+          <li>
+            <a href="#">ATOM</a>
+          </li>
+          <li>
+            <a href="#">GIT et GITHUB</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <header>
+      <div id="page-content-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <img id="logo" src="logocss.png" alt="logo html" />
+              <img src="logo-roubaix.png" alt="logo roubaix" class="center-block" />
+              <div class="clear"></div>
+              <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
+              <!-- <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+      <div class="jumbotron">
+        <div class="container">
+        <h1>Cheat Sheet CSS</h1>
+        <p>Retrouvez ici les balises indispensables</p>
+        <div class="btn-group">
+          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            En savoir plus
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-proprietes-css">OpenClassrooms</a></li>
+            <li><a href="https://www.codecademy.com/fr/learn/web">Codeacademy</a></li>
+            <li><a href="http://www.w3schools.com/css/">W3C</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2> Général : </h2>
+          <p>* Selecteur universel</p>
+          <p>h3 em Tous les em dans un h3</p>
+          <p> h3 + p Le premier p dans h3</p>
+          <p> a[title] Tous les liens avec title</p>
+          <p>class ou id (.nomclasse ou #nomid)</p>
+          <p>INDIQUER LA TAILLE EN EM</p>
+
+          <p>font-family Pour selectinner la police, pls peuvent etre mises à la suite</p>
+
+          <p> font-style (italic/oblique/normal/bold/)</p>
+          <p> text-decoration (underline/line-through/overline)</p>
+
+          <p> Alignement :</p>
+          <p> text-align (left/center/right/justify)</p>
+</div>
+<div class="col-md-3">
+
+          <p> LES FLOTTANTS :</p>
+
+          <p> float (left/right)</p>
+
+          <p> ex :</p>
+          <p> html :
+            <p>
+              &lt;img src="flash.gif" class="imageflottante" alt="Image flottante" /&lg; Ceci est un texte normal de paragraphe, écrit à la suite de l'image et qui l'habillera car l'image est flottante.</p>
+          </p>
+          <p> css : .imageflottante</p>
+          { float: left; }
+
+          <p> Pour faire revenir le texte en dessous :</p>
+          <p> clear both</p>
+          <p> ex:</p>
+          <p> html :</p>
+          <p>
+            &lt;img src="flash.gif" class="imageflottante" alt="Image flottante" /&gt;
+          </p>
+
+          <p>Ce texte est écrit à côté de l'image flottante.</p>
+
+          &lt;p class="dessous"&gt;Ce texte est écrit sous l'image flottante.&lt;/p&gt;
+          <p> css :</p>
+
+
+
+        </div>
+        <div class="col-md-4">
+
+          <p> .imageflottante</p>
+          {
+          <p> float: left;</p>
+           }
+          <p> .dessous</p>
+           {
+          <p> clear: both;</p>
+         }
+
+        </div>
+
+        <p> body {</p>
+        <p> background-image: url</p>
+        <p> }</p>
+
+        <p> background-attachment (fixed/scroll)</p>
+
+        <p> background-position (top/bottom/left/center/right ou ": 30px 50px;" affichera 30px de la gauche et 50px du haut + possible de combiner ex : top right;)</p>
+
+
+        <p> BORDURES :</p>
+
+        <p> border {</p>
+        <p> 2px (largeur) red (couleur) type de bordure (none/solid/dotted/dashed/double/groove/ridge/inset/outset/)</p>
+
+        <p> border-radius (arrondies): 10px;</p>
+
+        <p> LIENS :</p>
+
+        <p> a:hover = AU SURVOL</p>
+
+        <p> a:visited = Si lien déja visité</p>
+
+      </div>
+    </div>
+
+
+  <!-- /#page-content-wrapper -->
+</div>
+
+  <!-- /#wrapper -->
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

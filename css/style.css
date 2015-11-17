@@ -1,0 +1,23 @@
+
+#logo {
+  float: left;
+  width: 100px;
+  height:128px;
+}
+
+
+code {
+  background-color: lightblue;
+  border-radius: 10px;
+  border-width: 5px;
+  padding: 0.1em;
+}
+
+header > .clear {
+  clear: both;
+  height: 0; overflow: hidden; /* Précaution pour IE 7 */
+}
+
+.col-md-5 {
+  background-color:
+}
