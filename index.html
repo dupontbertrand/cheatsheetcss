@@ -11,6 +11,9 @@
 
   <title>Cheat Sheet CSS3</title>
 
+<!-- Font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -42,10 +45,10 @@
                     </a>
           </li>
           <li>
-            <a href="#">HTML</a>
+            <a href="http://dupontbertrand.github.io/cheatsheethtml/">HTML</a>
           </li>
           <li>
-            <a href="#">CSS</a>
+            <a href="http://dupontbertrand.github.io/cheatsheetcss/">CSS</a>
           </li>
           <li>
             <a href="#">Terminal</a>
@@ -85,8 +88,8 @@
       </div>
     </header>
 
-      <div class="jumbotron">
-        <div class="container">
+    <div class="jumbotron">
+      <div class="container">
         <h1>Cheat Sheet CSS</h1>
         <p>Retrouvez ici les balises indispensables</p>
         <div class="btn-group">
@@ -103,8 +106,10 @@
           </ul>
         </div>
       </div>
-      </div>
-      <div class="container">
+    </div>
+
+
+    <div class="container">
       <div class="row">
         <div class="col-md-5">
           <h2> Général : </h2>
@@ -122,17 +127,17 @@
 
           <p> Alignement :</p>
           <p> text-align (left/center/right/justify)</p>
-</div>
-<div class="col-md-3">
+        </div>
+        <div class="col-md-3">
 
-          <p> LES FLOTTANTS :</p>
+          <h2>Les flottants :</h2>
 
           <p> float (left/right)</p>
 
           <p> ex :</p>
           <p> html :
             <p>
-              &lt;img src="flash.gif" class="imageflottante" alt="Image flottante" /&lg; Ceci est un texte normal de paragraphe, écrit à la suite de l'image et qui l'habillera car l'image est flottante.</p>
+              &lt;img src="flash.gif" class="imageflottante" alt="Image flottante" /&gt; Ceci est un texte normal de paragraphe, écrit à la suite de l'image et qui l'habillera car l'image est flottante.</p>
           </p>
           <p> css : .imageflottante</p>
           { float: left; }
@@ -150,21 +155,14 @@
           &lt;p class="dessous"&gt;Ce texte est écrit sous l'image flottante.&lt;/p&gt;
           <p> css :</p>
 
-
-
-        </div>
-        <div class="col-md-4">
-
           <p> .imageflottante</p>
           {
           <p> float: left;</p>
-           }
+          }
           <p> .dessous</p>
-           {
+          {
           <p> clear: both;</p>
-         }
-
-        </div>
+          }
 
         <p> body {</p>
         <p> background-image: url</p>
@@ -174,8 +172,10 @@
 
         <p> background-position (top/bottom/left/center/right ou ": 30px 50px;" affichera 30px de la gauche et 50px du haut + possible de combiner ex : top right;)</p>
 
+      </div>
+      <div class="col-md-4">
 
-        <p> BORDURES :</p>
+        <h2>Les bordures :</h2>
 
         <p> border {</p>
         <p> 2px (largeur) red (couleur) type de bordure (none/solid/dotted/dashed/double/groove/ridge/inset/outset/)</p>
@@ -192,11 +192,11 @@
     </div>
 
 
-  <!-- /#page-content-wrapper -->
-</div>
+    <!-- /#page-content-wrapper -->
+  </div>
 
   <!-- /#wrapper -->
-
+</div>
   <!-- jQuery -->
   <script src="js/jquery.js"></script>
 
