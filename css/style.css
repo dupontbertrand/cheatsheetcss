@@ -7,6 +7,10 @@
 /*header > .clear {
   clear: both;
   height: 0; overflow: hidden; /* Précaution pour IE 7 */
+ul {
+  list-style: none;
+}
+
 
 code {
   background-color: lightblue;
@@ -79,6 +83,9 @@ h4 {
   #logoroubaix {
     display: none;
   }
+  #sectionsdropdown {
+    margin-top: 2px;
+  }
   .firstjumbo {
     margin-top: 15em;
   }
@@ -90,7 +97,7 @@ h4 {
     width: 320px;
   }
   .jumbotron {
-    margin-left: -2em;
+    margin-left: -1.5em;
   }
   .footer-distributed .footer-left, .footer-distributed .footer-right {
     text-align: center;
