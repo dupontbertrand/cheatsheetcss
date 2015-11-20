@@ -7,11 +7,10 @@
 /*header > .clear {
   clear: both;
   height: 0; overflow: hidden; /* Précaution pour IE 7 */
+
 ul {
   list-style: none;
 }
-
-
 code {
   background-color: lightblue;
   border-radius: 10px;
