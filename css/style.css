@@ -78,6 +78,7 @@ h4 {
 @media (max-width: 600px) {
   #logoroubaix {
     display: none;
+    /*Suppression logo roubaix en version mobile */
   }
   .container-fluid {
     position: relative;
