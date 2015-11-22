@@ -76,11 +76,11 @@ h4 {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
-  .container-fluid {
-    position: relative;
-  }
   #logoroubaix {
     display: none;
+  }
+  .container-fluid {
+    position: relative;
   }
   #sectionsdropdown {
     margin-top: 2px;
